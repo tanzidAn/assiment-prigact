@@ -18,6 +18,7 @@
     padding-top: 200px;
 }
 .header-title{
+    font-family: 'Roboto Slab', serif;
     font-weight: 700;
     font-size: 65px;
     margin-bottom: 24px;
@@ -90,12 +91,36 @@
     font-size: 19px;
     color: #737272;
 }
+/* card style */
+.card-section{
+    background-image: url('../images/watch.png'),url('../images/gradient1.png');
+    background-repeat: no-repeat ,no-repeat;
+    background-size: 80%;
+    height: 80vh;
+    background-position: center;
+}
+.card-item{
+    margin-left: 250px;
+    padding-top: 200px;
+    color: #FFFFFF;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.card-button{
+    padding: 20px 35px;
+    color: #F15B22;
+    font-size: 20px;
+}
 /* footer style */
 footer{
     background-color: black;
     color: white;
     margin-top: 70px;
     padding-top: 130px;
+    margin-bottom: 20px;
 }
 .footer-section{
     display: flex;
