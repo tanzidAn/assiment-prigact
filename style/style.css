@@ -97,6 +97,7 @@
     background-repeat: no-repeat ,no-repeat;
     background-size: 80%;
     height: 80vh;
+    background-blend-mode: lighten;
     background-position: center;
 }
 .card-item{
